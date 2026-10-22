@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ega-01-01-q1",
+    "topicId": "ega-01-01",
+    "type": "structure",
+    "prompt": "主節の文型を答え、OまたはCに当たるまとまりを示してください。",
+    "sentence": "The audience remained silent.",
+    "answer": "SVC。S: The audience / V: remained / C: silent。",
+    "explanation": "silentは聴衆の状態を述べる補語で、目的語ではありません。"
+  },
+  {
+    "id": "ega-01-01-q2",
+    "topicId": "ega-01-01",
+    "type": "structure",
+    "prompt": "主節の文型を答え、OまたはCに当たるまとまりを示してください。",
+    "sentence": "The coach gave the team some advice.",
+    "answer": "SVOO。S: The coach / V: gave / O: the team, some advice。",
+    "explanation": "チームと助言は2つの異なる対象です。チームが助言であるという関係ではないため、SVOCではありません。"
+  },
+  {
+    "id": "ega-01-01-q3",
+    "topicId": "ega-01-01",
+    "type": "structure",
+    "prompt": "主節の文型を答え、OまたはCに当たるまとまりを示してください。",
+    "sentence": "We found the explanation clear.",
+    "answer": "SVOC。S: We / V: found / O: the explanation / C: clear。",
+    "explanation": "説明が明快であると判断した、という関係です。clearは目的語の性質を述べる補語です。"
+  },
+  {
+    "id": "ega-01-01-q4",
+    "topicId": "ega-01-01",
+    "type": "structure",
+    "prompt": "主節の文型を答えてください。",
+    "sentence": "A bright star appeared above the hill.",
+    "answer": "SV。S: A bright star / V: appeared。",
+    "explanation": "above the hillは場所を加える修飾語です。ここでのappearedは目的語を取りません。"
+  },
+  {
+    "id": "ega-03-04-q1",
+    "topicId": "ega-03-04",
+    "type": "single-choice",
+    "prompt": "空所に最も適切なものを選んでください。",
+    "sentence": "I ___ this notebook last Saturday.",
+    "answer": "B. bought",
+    "explanation": "last Saturdayが完結した過去の時を特定しています。Aはその時間指定と合いません。Cはhaveの後ろが過去分詞になっていません。Dだけでは主節の定形動詞になりません。",
+    "options": [
+      "A. have bought",
+      "B. bought",
+      "C. have buy",
+      "D. buying"
+    ]
+  },
+  {
+    "id": "ega-03-04-q2",
+    "topicId": "ega-03-04",
+    "type": "short-answer",
+    "prompt": "knowを使って空所を補ってください。知り合いの状態は今も続いています。",
+    "sentence": "We ___ each other since primary school.",
+    "answer": "have known",
+    "explanation": "過去の始点から現在まで続く状態です。knowはこの意味では通常進行形にしないので、have been knowingは標準的ではありません。knewだけでは指定された現在までの継続を適切に表せません。"
+  },
+  {
+    "id": "ega-03-04-q3",
+    "topicId": "ega-03-04",
+    "type": "short-answer",
+    "prompt": "次の説明は正しいでしょうか。",
+    "sentence": "「I lost my wallet yesterday.と言った場合、財布は今は必ず見つかっている。」",
+    "answer": "誤り。",
+    "explanation": "過去形が述べるのは、財布をなくした出来事の過去の位置付けです。今見つかっているかどうかは、この文だけでは確定しません。"
+  },
+  {
+    "id": "ega-12-01-q1",
+    "topicId": "ega-12-01",
+    "type": "single-choice",
+    "prompt": "現在、車を持っていない状況です。現在の所有について仮定する空所に最も適切なものを選んでください。",
+    "sentence": "If I ___ a car, I could drive you to the station.",
+    "answer": "B. had",
+    "explanation": "現在の所有について現実と異なる仮定です。Aは条件を開かれた可能性として提示する形で、設問の意図と合いません。Cは過去の所有を仮定する形で、現在の所有という指定と合いません。Dはこの単純な所有の仮定を作る基本形ではありません。",
+    "options": [
+      "A. have",
+      "B. had",
+      "C. had had",
+      "D. would have"
+    ]
+  },
+  {
+    "id": "ega-12-01-q2",
+    "topicId": "ega-12-01",
+    "type": "single-choice",
+    "prompt": "実際には昨夜の連絡を見なかったため、昨夜の会合に参加できませんでした。空所を補ってください。",
+    "sentence": "If I had seen your message last night, I ___ the meeting.",
+    "answer": "B. would have joined",
+    "explanation": "過去の反実仮想の結果なのでwould＋have＋過去分詞です。Aは現在・未来の結果を表す典型形で、指定された過去の参加を表せません。Cは未来の形であり、Dは助動詞の直後が原形になっていません。",
+    "options": [
+      "A. would join",
+      "B. would have joined",
+      "C. will join",
+      "D. would had joined"
+    ]
+  },
+  {
+    "id": "ega-12-01-q3",
+    "topicId": "ega-12-01",
+    "type": "short-answer",
+    "prompt": "条件と結果はそれぞれいつのことですか。",
+    "sentence": "If she had saved the file yesterday, she would have it now.",
+    "answer": "条件は昨日、結果は現在。",
+    "explanation": "had savedは過去の反実仮想。would have it nowのhaveは「持っている」を表す一般動詞です。would have＋過去分詞という完了形ではありません。"
+  }
+]

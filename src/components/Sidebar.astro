@@ -1,0 +1,22 @@
+---
+import { chapters } from '../lib/curriculum';
+import { href } from '../lib/paths';
+const path = Astro.url.pathname;
+---
+<aside class="sidebar">
+  <details class="chapter-menu" open>
+    <summary>カリキュラムを開く <span aria-hidden="true">＋</span></summary>
+    <nav aria-label="章別ナビゲーション">
+      <a class="overview-link" href={href('chapters/')} aria-current={path === href('chapters/') ? 'page' : undefined}>▦　すべての分野</a>
+      <p class="nav-label">THE GRAMMAR MAP</p>
+      <ol start="0">{chapters.map(chapter => <li><a href={href(`chapters/${chapter.id}/`)} aria-current={path === href(`chapters/${chapter.id}/`) ? 'page' : undefined}><span class="chapter-number">{String(chapter.id).padStart(2, '0')}</span><span>{chapter.title}</span></a></li>)}</ol>
+    </nav>
+  </details>
+  <div class="sidebar-note"><span class="small-caps">LEARN WITH REASON</span><p>「なぜそうなる？」を<br />理解の出発点に。</p><a href={href('about/')}>このサイトについて ↗</a></div>
+</aside>
+<script>
+  const menu = document.querySelector<HTMLDetailsElement>('.chapter-menu');
+  const desktop = matchMedia('(min-width: 1080px)');
+  const update = () => { if (menu) menu.open = desktop.matches; };
+  update(); desktop.addEventListener('change', update);
+</script>

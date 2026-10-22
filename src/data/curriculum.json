@@ -1,0 +1,1977 @@
+[
+  {
+    "id": 0,
+    "title": "文法の前提知識",
+    "description": "英文を読むための共通言語を身につける。",
+    "topics": [
+      {
+        "id": "ega-00-01",
+        "title": "品詞と文の要素",
+        "chapter": 0,
+        "order": 1,
+        "level": "基礎",
+        "prerequisites": [],
+        "relatedTopics": [
+          "ega-00-02"
+        ]
+      },
+      {
+        "id": "ega-00-02",
+        "title": "句と節",
+        "chapter": 0,
+        "order": 2,
+        "level": "標準",
+        "prerequisites": [
+          "ega-00-01"
+        ],
+        "relatedTopics": [
+          "ega-00-01",
+          "ega-00-03"
+        ]
+      },
+      {
+        "id": "ega-00-03",
+        "title": "主節と従属節",
+        "chapter": 0,
+        "order": 3,
+        "level": "標準",
+        "prerequisites": [
+          "ega-00-02"
+        ],
+        "relatedTopics": [
+          "ega-00-02",
+          "ega-00-04"
+        ]
+      },
+      {
+        "id": "ega-00-04",
+        "title": "語形変化と辞書の使い方",
+        "chapter": 0,
+        "order": 4,
+        "level": "発展",
+        "prerequisites": [
+          "ega-00-03"
+        ],
+        "relatedTopics": [
+          "ega-00-03",
+          "ega-00-05"
+        ]
+      },
+      {
+        "id": "ega-00-05",
+        "title": "英文の区切りと修飾",
+        "chapter": 0,
+        "order": 5,
+        "level": "発展",
+        "prerequisites": [
+          "ega-00-04"
+        ],
+        "relatedTopics": [
+          "ega-00-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "文型",
+    "description": "語の並びから、文の骨格を見つける。",
+    "topics": [
+      {
+        "id": "ega-01-01",
+        "title": "文の要素と5文型",
+        "chapter": 1,
+        "order": 101,
+        "level": "基礎",
+        "prerequisites": [
+          "ega-00-01",
+          "ega-00-02"
+        ],
+        "relatedTopics": [
+          "ega-01-02",
+          "ega-02-01",
+          "ega-23-01"
+        ]
+      },
+      {
+        "id": "ega-01-02",
+        "title": "SV・SVCと補語",
+        "chapter": 1,
+        "order": 102,
+        "level": "標準",
+        "prerequisites": [
+          "ega-01-01"
+        ],
+        "relatedTopics": [
+          "ega-01-01",
+          "ega-01-03"
+        ]
+      },
+      {
+        "id": "ega-01-03",
+        "title": "SVOと目的語",
+        "chapter": 1,
+        "order": 103,
+        "level": "標準",
+        "prerequisites": [
+          "ega-01-02"
+        ],
+        "relatedTopics": [
+          "ega-01-02",
+          "ega-01-04"
+        ]
+      },
+      {
+        "id": "ega-01-04",
+        "title": "SVOOと授与構文",
+        "chapter": 1,
+        "order": 104,
+        "level": "発展",
+        "prerequisites": [
+          "ega-01-03"
+        ],
+        "relatedTopics": [
+          "ega-01-03",
+          "ega-01-05"
+        ]
+      },
+      {
+        "id": "ega-01-05",
+        "title": "SVOCと目的語の説明",
+        "chapter": 1,
+        "order": 105,
+        "level": "発展",
+        "prerequisites": [
+          "ega-01-04"
+        ],
+        "relatedTopics": [
+          "ega-01-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "動詞",
+    "description": "動詞の性質から後ろの形を予測する。",
+    "topics": [
+      {
+        "id": "ega-02-01",
+        "title": "自動詞と他動詞",
+        "chapter": 2,
+        "order": 201,
+        "level": "基礎",
+        "prerequisites": [
+          "ega-01-01"
+        ],
+        "relatedTopics": [
+          "ega-02-02"
+        ]
+      },
+      {
+        "id": "ega-02-02",
+        "title": "状態動詞と動作動詞",
+        "chapter": 2,
+        "order": 202,
+        "level": "標準",
+        "prerequisites": [
+          "ega-02-01"
+        ],
+        "relatedTopics": [
+          "ega-02-01",
+          "ega-02-03"
+        ]
+      },
+      {
+        "id": "ega-02-03",
+        "title": "連結動詞と知覚動詞",
+        "chapter": 2,
+        "order": 203,
+        "level": "標準",
+        "prerequisites": [
+          "ega-02-02"
+        ],
+        "relatedTopics": [
+          "ega-02-02",
+          "ega-02-04"
+        ]
+      },
+      {
+        "id": "ega-02-04",
+        "title": "使役動詞と補文",
+        "chapter": 2,
+        "order": 204,
+        "level": "発展",
+        "prerequisites": [
+          "ega-02-03"
+        ],
+        "relatedTopics": [
+          "ega-02-03",
+          "ega-02-05"
+        ]
+      },
+      {
+        "id": "ega-02-05",
+        "title": "句動詞と動詞の語法",
+        "chapter": 2,
+        "order": 205,
+        "level": "発展",
+        "prerequisites": [
+          "ega-02-04"
+        ],
+        "relatedTopics": [
+          "ega-02-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "時制",
+    "description": "出来事をどの時点から捉えるかを学ぶ。",
+    "topics": [
+      {
+        "id": "ega-03-01",
+        "title": "現在形と過去形",
+        "chapter": 3,
+        "order": 301,
+        "level": "基礎",
+        "prerequisites": [
+          "ega-02-01"
+        ],
+        "relatedTopics": [
+          "ega-03-02"
+        ]
+      },
+      {
+        "id": "ega-03-02",
+        "title": "進行形の意味と制約",
+        "chapter": 3,
+        "order": 302,
+        "level": "標準",
+        "prerequisites": [
+          "ega-03-01"
+        ],
+        "relatedTopics": [
+          "ega-03-01",
+          "ega-03-03"
+        ]
+      },
+      {
+        "id": "ega-03-03",
+        "title": "未来表現の使い分け",
+        "chapter": 3,
+        "order": 303,
+        "level": "標準",
+        "prerequisites": [
+          "ega-03-02"
+        ],
+        "relatedTopics": [
+          "ega-03-02",
+          "ega-03-04"
+        ]
+      },
+      {
+        "id": "ega-03-04",
+        "title": "現在完了と過去形の違い",
+        "chapter": 3,
+        "order": 304,
+        "level": "標準",
+        "prerequisites": [
+          "ega-03-01",
+          "ega-03-02"
+        ],
+        "relatedTopics": [
+          "ega-03-03",
+          "ega-03-05",
+          "ega-12-01"
+        ]
+      },
+      {
+        "id": "ega-03-05",
+        "title": "過去完了と完了進行形",
+        "chapter": 3,
+        "order": 305,
+        "level": "発展",
+        "prerequisites": [
+          "ega-03-04"
+        ],
+        "relatedTopics": [
+          "ega-03-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "助動詞",
+    "description": "話し手の判断・意志・義務を読み取る。",
+    "topics": [
+      {
+        "id": "ega-04-01",
+        "title": "can・couldと能力・可能性",
+        "chapter": 4,
+        "order": 401,
+        "level": "標準",
+        "prerequisites": [
+          "ega-03-01"
+        ],
+        "relatedTopics": [
+          "ega-04-02"
+        ]
+      },
+      {
+        "id": "ega-04-02",
+        "title": "may・mightと許可・推量",
+        "chapter": 4,
+        "order": 402,
+        "level": "標準",
+        "prerequisites": [
+          "ega-04-01"
+        ],
+        "relatedTopics": [
+          "ega-04-01",
+          "ega-04-03"
+        ]
+      },
+      {
+        "id": "ega-04-03",
+        "title": "must・have to・should",
+        "chapter": 4,
+        "order": 403,
+        "level": "標準",
+        "prerequisites": [
+          "ega-04-02"
+        ],
+        "relatedTopics": [
+          "ega-04-02",
+          "ega-04-04"
+        ]
+      },
+      {
+        "id": "ega-04-04",
+        "title": "will・wouldと意志・習慣",
+        "chapter": 4,
+        "order": 404,
+        "level": "発展",
+        "prerequisites": [
+          "ega-04-03"
+        ],
+        "relatedTopics": [
+          "ega-04-03",
+          "ega-04-05"
+        ]
+      },
+      {
+        "id": "ega-04-05",
+        "title": "助動詞＋have＋過去分詞",
+        "chapter": 4,
+        "order": 405,
+        "level": "発展",
+        "prerequisites": [
+          "ega-04-04"
+        ],
+        "relatedTopics": [
+          "ega-04-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "受動態",
+    "description": "視点を変えた文の組み立てを理解する。",
+    "topics": [
+      {
+        "id": "ega-05-01",
+        "title": "受動態の基本と成立条件",
+        "chapter": 5,
+        "order": 501,
+        "level": "標準",
+        "prerequisites": [
+          "ega-01-03",
+          "ega-03-01"
+        ],
+        "relatedTopics": [
+          "ega-05-02"
+        ]
+      },
+      {
+        "id": "ega-05-02",
+        "title": "時制・助動詞を伴う受動態",
+        "chapter": 5,
+        "order": 502,
+        "level": "標準",
+        "prerequisites": [
+          "ega-05-01"
+        ],
+        "relatedTopics": [
+          "ega-05-01",
+          "ega-05-03"
+        ]
+      },
+      {
+        "id": "ega-05-03",
+        "title": "SVOO・SVOCの受動態",
+        "chapter": 5,
+        "order": 503,
+        "level": "標準",
+        "prerequisites": [
+          "ega-05-02"
+        ],
+        "relatedTopics": [
+          "ega-05-02",
+          "ega-05-04"
+        ]
+      },
+      {
+        "id": "ega-05-04",
+        "title": "句動詞・群動詞の受動態",
+        "chapter": 5,
+        "order": 504,
+        "level": "発展",
+        "prerequisites": [
+          "ega-05-03"
+        ],
+        "relatedTopics": [
+          "ega-05-03",
+          "ega-05-05"
+        ]
+      },
+      {
+        "id": "ega-05-05",
+        "title": "状態・動作と受動表現",
+        "chapter": 5,
+        "order": 505,
+        "level": "発展",
+        "prerequisites": [
+          "ega-05-04"
+        ],
+        "relatedTopics": [
+          "ega-05-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "不定詞",
+    "description": "to doが文中で担う役割を整理する。",
+    "topics": [
+      {
+        "id": "ega-06-01",
+        "title": "不定詞の名詞的用法",
+        "chapter": 6,
+        "order": 601,
+        "level": "標準",
+        "prerequisites": [
+          "ega-01-01",
+          "ega-02-01"
+        ],
+        "relatedTopics": [
+          "ega-06-02"
+        ]
+      },
+      {
+        "id": "ega-06-02",
+        "title": "不定詞の形容詞的用法",
+        "chapter": 6,
+        "order": 602,
+        "level": "標準",
+        "prerequisites": [
+          "ega-06-01"
+        ],
+        "relatedTopics": [
+          "ega-06-01",
+          "ega-06-03"
+        ]
+      },
+      {
+        "id": "ega-06-03",
+        "title": "不定詞の副詞的用法",
+        "chapter": 6,
+        "order": 603,
+        "level": "標準",
+        "prerequisites": [
+          "ega-06-02"
+        ],
+        "relatedTopics": [
+          "ega-06-02",
+          "ega-06-04"
+        ]
+      },
+      {
+        "id": "ega-06-04",
+        "title": "意味上の主語・否定・完了形",
+        "chapter": 6,
+        "order": 604,
+        "level": "発展",
+        "prerequisites": [
+          "ega-06-03"
+        ],
+        "relatedTopics": [
+          "ega-06-03",
+          "ega-06-05"
+        ]
+      },
+      {
+        "id": "ega-06-05",
+        "title": "原形不定詞と重要構文",
+        "chapter": 6,
+        "order": 605,
+        "level": "発展",
+        "prerequisites": [
+          "ega-06-04"
+        ],
+        "relatedTopics": [
+          "ega-06-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "動名詞",
+    "description": "動詞を名詞として用いる仕組みを理解する。",
+    "topics": [
+      {
+        "id": "ega-07-01",
+        "title": "動名詞の基本と働き",
+        "chapter": 7,
+        "order": 701,
+        "level": "標準",
+        "prerequisites": [
+          "ega-06-01"
+        ],
+        "relatedTopics": [
+          "ega-07-02"
+        ]
+      },
+      {
+        "id": "ega-07-02",
+        "title": "意味上の主語と否定・完了",
+        "chapter": 7,
+        "order": 702,
+        "level": "標準",
+        "prerequisites": [
+          "ega-07-01"
+        ],
+        "relatedTopics": [
+          "ega-07-01",
+          "ega-07-03"
+        ]
+      },
+      {
+        "id": "ega-07-03",
+        "title": "不定詞と動名詞の選択",
+        "chapter": 7,
+        "order": 703,
+        "level": "標準",
+        "prerequisites": [
+          "ega-07-02"
+        ],
+        "relatedTopics": [
+          "ega-07-02",
+          "ega-07-04"
+        ]
+      },
+      {
+        "id": "ega-07-04",
+        "title": "前置詞＋動名詞と慣用表現",
+        "chapter": 7,
+        "order": 704,
+        "level": "発展",
+        "prerequisites": [
+          "ega-07-03"
+        ],
+        "relatedTopics": [
+          "ega-07-03",
+          "ega-07-05"
+        ]
+      },
+      {
+        "id": "ega-07-05",
+        "title": "動名詞・分詞・名詞の境界",
+        "chapter": 7,
+        "order": 705,
+        "level": "発展",
+        "prerequisites": [
+          "ega-07-04"
+        ],
+        "relatedTopics": [
+          "ega-07-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "分詞・分詞構文",
+    "description": "分詞による説明と情報の圧縮を学ぶ。",
+    "topics": [
+      {
+        "id": "ega-08-01",
+        "title": "現在分詞と過去分詞",
+        "chapter": 8,
+        "order": 801,
+        "level": "標準",
+        "prerequisites": [
+          "ega-03-02",
+          "ega-05-01",
+          "ega-06-01"
+        ],
+        "relatedTopics": [
+          "ega-08-02"
+        ]
+      },
+      {
+        "id": "ega-08-02",
+        "title": "分詞の限定用法と叙述用法",
+        "chapter": 8,
+        "order": 802,
+        "level": "標準",
+        "prerequisites": [
+          "ega-08-01"
+        ],
+        "relatedTopics": [
+          "ega-08-01",
+          "ega-08-03"
+        ]
+      },
+      {
+        "id": "ega-08-03",
+        "title": "分詞構文の基本",
+        "chapter": 8,
+        "order": 803,
+        "level": "標準",
+        "prerequisites": [
+          "ega-08-02"
+        ],
+        "relatedTopics": [
+          "ega-08-02",
+          "ega-08-04"
+        ]
+      },
+      {
+        "id": "ega-08-04",
+        "title": "完了・受動・否定の分詞構文",
+        "chapter": 8,
+        "order": 804,
+        "level": "発展",
+        "prerequisites": [
+          "ega-08-03"
+        ],
+        "relatedTopics": [
+          "ega-08-03",
+          "ega-08-05"
+        ]
+      },
+      {
+        "id": "ega-08-05",
+        "title": "独立分詞構文と懸垂分詞",
+        "chapter": 8,
+        "order": 805,
+        "level": "発展",
+        "prerequisites": [
+          "ega-08-04"
+        ],
+        "relatedTopics": [
+          "ega-08-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "関係詞",
+    "description": "名詞を節で詳しく説明する。",
+    "topics": [
+      {
+        "id": "ega-09-01",
+        "title": "関係代名詞の主格・目的格",
+        "chapter": 9,
+        "order": 901,
+        "level": "標準",
+        "prerequisites": [
+          "ega-00-02",
+          "ega-01-01"
+        ],
+        "relatedTopics": [
+          "ega-09-02"
+        ]
+      },
+      {
+        "id": "ega-09-02",
+        "title": "所有格と前置詞＋関係詞",
+        "chapter": 9,
+        "order": 902,
+        "level": "標準",
+        "prerequisites": [
+          "ega-09-01"
+        ],
+        "relatedTopics": [
+          "ega-09-01",
+          "ega-09-03"
+        ]
+      },
+      {
+        "id": "ega-09-03",
+        "title": "関係副詞と関係代名詞",
+        "chapter": 9,
+        "order": 903,
+        "level": "標準",
+        "prerequisites": [
+          "ega-09-02"
+        ],
+        "relatedTopics": [
+          "ega-09-02",
+          "ega-09-04"
+        ]
+      },
+      {
+        "id": "ega-09-04",
+        "title": "制限用法と非制限用法",
+        "chapter": 9,
+        "order": 904,
+        "level": "発展",
+        "prerequisites": [
+          "ega-09-03"
+        ],
+        "relatedTopics": [
+          "ega-09-03",
+          "ega-09-05"
+        ]
+      },
+      {
+        "id": "ega-09-05",
+        "title": "複合関係詞と連鎖関係節",
+        "chapter": 9,
+        "order": 905,
+        "level": "発展",
+        "prerequisites": [
+          "ega-09-04"
+        ],
+        "relatedTopics": [
+          "ega-09-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "接続詞",
+    "description": "節をつなぎ、論理関係を捉える。",
+    "topics": [
+      {
+        "id": "ega-10-01",
+        "title": "等位接続詞と相関表現",
+        "chapter": 10,
+        "order": 1001,
+        "level": "標準",
+        "prerequisites": [
+          "ega-00-03"
+        ],
+        "relatedTopics": [
+          "ega-10-02"
+        ]
+      },
+      {
+        "id": "ega-10-02",
+        "title": "名詞節を導く接続詞",
+        "chapter": 10,
+        "order": 1002,
+        "level": "標準",
+        "prerequisites": [
+          "ega-10-01"
+        ],
+        "relatedTopics": [
+          "ega-10-01",
+          "ega-10-03"
+        ]
+      },
+      {
+        "id": "ega-10-03",
+        "title": "時・条件の副詞節",
+        "chapter": 10,
+        "order": 1003,
+        "level": "標準",
+        "prerequisites": [
+          "ega-10-02"
+        ],
+        "relatedTopics": [
+          "ega-10-02",
+          "ega-10-04"
+        ]
+      },
+      {
+        "id": "ega-10-04",
+        "title": "原因・譲歩・目的・結果の節",
+        "chapter": 10,
+        "order": 1004,
+        "level": "発展",
+        "prerequisites": [
+          "ega-10-03"
+        ],
+        "relatedTopics": [
+          "ega-10-03",
+          "ega-10-05"
+        ]
+      },
+      {
+        "id": "ega-10-05",
+        "title": "接続詞・前置詞・副詞の区別",
+        "chapter": 10,
+        "order": 1005,
+        "level": "発展",
+        "prerequisites": [
+          "ega-10-04"
+        ],
+        "relatedTopics": [
+          "ega-10-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "比較",
+    "description": "比較の対象と基準を正確に捉える。",
+    "topics": [
+      {
+        "id": "ega-11-01",
+        "title": "原級と比較級の基本",
+        "chapter": 11,
+        "order": 1101,
+        "level": "標準",
+        "prerequisites": [
+          "ega-00-01",
+          "ega-01-02"
+        ],
+        "relatedTopics": [
+          "ega-11-02"
+        ]
+      },
+      {
+        "id": "ega-11-02",
+        "title": "最上級と比較の範囲",
+        "chapter": 11,
+        "order": 1102,
+        "level": "標準",
+        "prerequisites": [
+          "ega-11-01"
+        ],
+        "relatedTopics": [
+          "ega-11-01",
+          "ega-11-03"
+        ]
+      },
+      {
+        "id": "ega-11-03",
+        "title": "倍数表現と程度差",
+        "chapter": 11,
+        "order": 1103,
+        "level": "標準",
+        "prerequisites": [
+          "ega-11-02"
+        ],
+        "relatedTopics": [
+          "ega-11-02",
+          "ega-11-04"
+        ]
+      },
+      {
+        "id": "ega-11-04",
+        "title": "否定を含む比較構文",
+        "chapter": 11,
+        "order": 1104,
+        "level": "発展",
+        "prerequisites": [
+          "ega-11-03"
+        ],
+        "relatedTopics": [
+          "ega-11-03",
+          "ega-11-05"
+        ]
+      },
+      {
+        "id": "ega-11-05",
+        "title": "比較節の省略と特殊表現",
+        "chapter": 11,
+        "order": 1105,
+        "level": "発展",
+        "prerequisites": [
+          "ega-11-04"
+        ],
+        "relatedTopics": [
+          "ega-11-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "仮定法",
+    "description": "現実との距離を動詞の形で表す。",
+    "topics": [
+      {
+        "id": "ega-12-01",
+        "title": "仮定法過去と仮定法過去完了",
+        "chapter": 12,
+        "order": 1201,
+        "level": "標準",
+        "prerequisites": [
+          "ega-03-01",
+          "ega-03-05",
+          "ega-04-02"
+        ],
+        "relatedTopics": [
+          "ega-03-04",
+          "ega-12-02"
+        ]
+      },
+      {
+        "id": "ega-12-02",
+        "title": "混合仮定法",
+        "chapter": 12,
+        "order": 1202,
+        "level": "標準",
+        "prerequisites": [
+          "ega-12-01"
+        ],
+        "relatedTopics": [
+          "ega-12-01",
+          "ega-12-03"
+        ]
+      },
+      {
+        "id": "ega-12-03",
+        "title": "wish・as if・if only",
+        "chapter": 12,
+        "order": 1203,
+        "level": "標準",
+        "prerequisites": [
+          "ega-12-02"
+        ],
+        "relatedTopics": [
+          "ega-12-02",
+          "ega-12-04"
+        ]
+      },
+      {
+        "id": "ega-12-04",
+        "title": "条件節の倒置とifの代用",
+        "chapter": 12,
+        "order": 1204,
+        "level": "発展",
+        "prerequisites": [
+          "ega-12-03"
+        ],
+        "relatedTopics": [
+          "ega-12-03",
+          "ega-12-05"
+        ]
+      },
+      {
+        "id": "ega-12-05",
+        "title": "提案・要求と仮定法現在",
+        "chapter": 12,
+        "order": 1205,
+        "level": "発展",
+        "prerequisites": [
+          "ega-12-04"
+        ],
+        "relatedTopics": [
+          "ega-12-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "名詞・冠詞",
+    "description": "数え方と聞き手の知識から名詞句を作る。",
+    "topics": [
+      {
+        "id": "ega-13-01",
+        "title": "可算名詞と不可算名詞",
+        "chapter": 13,
+        "order": 1301,
+        "level": "標準",
+        "prerequisites": [
+          "ega-00-01"
+        ],
+        "relatedTopics": [
+          "ega-13-02"
+        ]
+      },
+      {
+        "id": "ega-13-02",
+        "title": "単数・複数と数量表現",
+        "chapter": 13,
+        "order": 1302,
+        "level": "標準",
+        "prerequisites": [
+          "ega-13-01"
+        ],
+        "relatedTopics": [
+          "ega-13-01",
+          "ega-13-03"
+        ]
+      },
+      {
+        "id": "ega-13-03",
+        "title": "不定冠詞a・an",
+        "chapter": 13,
+        "order": 1303,
+        "level": "標準",
+        "prerequisites": [
+          "ega-13-02"
+        ],
+        "relatedTopics": [
+          "ega-13-02",
+          "ega-13-04"
+        ]
+      },
+      {
+        "id": "ega-13-04",
+        "title": "定冠詞theと無冠詞",
+        "chapter": 13,
+        "order": 1304,
+        "level": "発展",
+        "prerequisites": [
+          "ega-13-03"
+        ],
+        "relatedTopics": [
+          "ega-13-03",
+          "ega-13-05"
+        ]
+      },
+      {
+        "id": "ega-13-05",
+        "title": "抽象名詞・固有名詞の普通名詞化",
+        "chapter": 13,
+        "order": 1305,
+        "level": "発展",
+        "prerequisites": [
+          "ega-13-04"
+        ],
+        "relatedTopics": [
+          "ega-13-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "代名詞",
+    "description": "指示対象を追い、重複を避ける。",
+    "topics": [
+      {
+        "id": "ega-14-01",
+        "title": "人称代名詞と再帰代名詞",
+        "chapter": 14,
+        "order": 1401,
+        "level": "標準",
+        "prerequisites": [
+          "ega-13-01"
+        ],
+        "relatedTopics": [
+          "ega-14-02"
+        ]
+      },
+      {
+        "id": "ega-14-02",
+        "title": "指示代名詞とit",
+        "chapter": 14,
+        "order": 1402,
+        "level": "標準",
+        "prerequisites": [
+          "ega-14-01"
+        ],
+        "relatedTopics": [
+          "ega-14-01",
+          "ega-14-03"
+        ]
+      },
+      {
+        "id": "ega-14-03",
+        "title": "one・ones・that・those",
+        "chapter": 14,
+        "order": 1403,
+        "level": "標準",
+        "prerequisites": [
+          "ega-14-02"
+        ],
+        "relatedTopics": [
+          "ega-14-02",
+          "ega-14-04"
+        ]
+      },
+      {
+        "id": "ega-14-04",
+        "title": "不定代名詞と部分否定",
+        "chapter": 14,
+        "order": 1404,
+        "level": "発展",
+        "prerequisites": [
+          "ega-14-03"
+        ],
+        "relatedTopics": [
+          "ega-14-03",
+          "ega-14-05"
+        ]
+      },
+      {
+        "id": "ega-14-05",
+        "title": "形式主語・形式目的語",
+        "chapter": 14,
+        "order": 1405,
+        "level": "発展",
+        "prerequisites": [
+          "ega-14-04"
+        ],
+        "relatedTopics": [
+          "ega-14-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "形容詞・副詞",
+    "description": "修飾する対象と位置を見分ける。",
+    "topics": [
+      {
+        "id": "ega-15-01",
+        "title": "形容詞の限定用法と叙述用法",
+        "chapter": 15,
+        "order": 1501,
+        "level": "標準",
+        "prerequisites": [
+          "ega-00-01",
+          "ega-01-02"
+        ],
+        "relatedTopics": [
+          "ega-15-02"
+        ]
+      },
+      {
+        "id": "ega-15-02",
+        "title": "形容詞の語順と数量詞",
+        "chapter": 15,
+        "order": 1502,
+        "level": "標準",
+        "prerequisites": [
+          "ega-15-01"
+        ],
+        "relatedTopics": [
+          "ega-15-01",
+          "ega-15-03"
+        ]
+      },
+      {
+        "id": "ega-15-03",
+        "title": "副詞の種類と修飾範囲",
+        "chapter": 15,
+        "order": 1503,
+        "level": "標準",
+        "prerequisites": [
+          "ega-15-02"
+        ],
+        "relatedTopics": [
+          "ega-15-02",
+          "ega-15-04"
+        ]
+      },
+      {
+        "id": "ega-15-04",
+        "title": "頻度・程度・焦点の副詞",
+        "chapter": 15,
+        "order": 1504,
+        "level": "発展",
+        "prerequisites": [
+          "ega-15-03"
+        ],
+        "relatedTopics": [
+          "ega-15-03",
+          "ega-15-05"
+        ]
+      },
+      {
+        "id": "ega-15-05",
+        "title": "紛らわしい形容詞と副詞",
+        "chapter": 15,
+        "order": 1505,
+        "level": "発展",
+        "prerequisites": [
+          "ega-15-04"
+        ],
+        "relatedTopics": [
+          "ega-15-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "前置詞",
+    "description": "名詞句の役割を関係として捉える。",
+    "topics": [
+      {
+        "id": "ega-16-01",
+        "title": "空間を表す前置詞",
+        "chapter": 16,
+        "order": 1601,
+        "level": "標準",
+        "prerequisites": [
+          "ega-00-01",
+          "ega-00-02"
+        ],
+        "relatedTopics": [
+          "ega-16-02"
+        ]
+      },
+      {
+        "id": "ega-16-02",
+        "title": "時を表す前置詞",
+        "chapter": 16,
+        "order": 1602,
+        "level": "標準",
+        "prerequisites": [
+          "ega-16-01"
+        ],
+        "relatedTopics": [
+          "ega-16-01",
+          "ega-16-03"
+        ]
+      },
+      {
+        "id": "ega-16-03",
+        "title": "原因・手段・材料の前置詞",
+        "chapter": 16,
+        "order": 1603,
+        "level": "標準",
+        "prerequisites": [
+          "ega-16-02"
+        ],
+        "relatedTopics": [
+          "ega-16-02",
+          "ega-16-04"
+        ]
+      },
+      {
+        "id": "ega-16-04",
+        "title": "形容詞・動詞と前置詞",
+        "chapter": 16,
+        "order": 1604,
+        "level": "発展",
+        "prerequisites": [
+          "ega-16-03"
+        ],
+        "relatedTopics": [
+          "ega-16-03",
+          "ega-16-05"
+        ]
+      },
+      {
+        "id": "ega-16-05",
+        "title": "前置詞句と複合前置詞",
+        "chapter": 16,
+        "order": 1605,
+        "level": "発展",
+        "prerequisites": [
+          "ega-16-04"
+        ],
+        "relatedTopics": [
+          "ega-16-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "否定",
+    "description": "否定が及ぶ範囲と強さを読む。",
+    "topics": [
+      {
+        "id": "ega-17-01",
+        "title": "not・noと否定の範囲",
+        "chapter": 17,
+        "order": 1701,
+        "level": "標準",
+        "prerequisites": [
+          "ega-03-01",
+          "ega-04-01"
+        ],
+        "relatedTopics": [
+          "ega-17-02"
+        ]
+      },
+      {
+        "id": "ega-17-02",
+        "title": "全体否定と部分否定",
+        "chapter": 17,
+        "order": 1702,
+        "level": "標準",
+        "prerequisites": [
+          "ega-17-01"
+        ],
+        "relatedTopics": [
+          "ega-17-01",
+          "ega-17-03"
+        ]
+      },
+      {
+        "id": "ega-17-03",
+        "title": "準否定と否定語句",
+        "chapter": 17,
+        "order": 1703,
+        "level": "標準",
+        "prerequisites": [
+          "ega-17-02"
+        ],
+        "relatedTopics": [
+          "ega-17-02",
+          "ega-17-04"
+        ]
+      },
+      {
+        "id": "ega-17-04",
+        "title": "二重否定と否定の移動",
+        "chapter": 17,
+        "order": 1704,
+        "level": "発展",
+        "prerequisites": [
+          "ega-17-03"
+        ],
+        "relatedTopics": [
+          "ega-17-03",
+          "ega-17-05"
+        ]
+      },
+      {
+        "id": "ega-17-05",
+        "title": "否定表現と文脈上の含意",
+        "chapter": 17,
+        "order": 1705,
+        "level": "発展",
+        "prerequisites": [
+          "ega-17-04"
+        ],
+        "relatedTopics": [
+          "ega-17-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "疑問文",
+    "description": "情報を求める形と語順を学ぶ。",
+    "topics": [
+      {
+        "id": "ega-18-01",
+        "title": "一般疑問文と疑問詞疑問文",
+        "chapter": 18,
+        "order": 1801,
+        "level": "標準",
+        "prerequisites": [
+          "ega-03-01",
+          "ega-04-01"
+        ],
+        "relatedTopics": [
+          "ega-18-02"
+        ]
+      },
+      {
+        "id": "ega-18-02",
+        "title": "主語を尋ねる疑問文",
+        "chapter": 18,
+        "order": 1802,
+        "level": "標準",
+        "prerequisites": [
+          "ega-18-01"
+        ],
+        "relatedTopics": [
+          "ega-18-01",
+          "ega-18-03"
+        ]
+      },
+      {
+        "id": "ega-18-03",
+        "title": "間接疑問と疑問詞＋不定詞",
+        "chapter": 18,
+        "order": 1803,
+        "level": "標準",
+        "prerequisites": [
+          "ega-18-02"
+        ],
+        "relatedTopics": [
+          "ega-18-02",
+          "ega-18-04"
+        ]
+      },
+      {
+        "id": "ega-18-04",
+        "title": "付加疑問と否定疑問",
+        "chapter": 18,
+        "order": 1804,
+        "level": "発展",
+        "prerequisites": [
+          "ega-18-03"
+        ],
+        "relatedTopics": [
+          "ega-18-03",
+          "ega-18-05"
+        ]
+      },
+      {
+        "id": "ega-18-05",
+        "title": "修辞疑問と疑問詞の強調",
+        "chapter": 18,
+        "order": 1805,
+        "level": "発展",
+        "prerequisites": [
+          "ega-18-04"
+        ],
+        "relatedTopics": [
+          "ega-18-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "一致・語順",
+    "description": "主語・動詞・情報の配置を整える。",
+    "topics": [
+      {
+        "id": "ega-19-01",
+        "title": "主語と動詞の数の一致",
+        "chapter": 19,
+        "order": 1901,
+        "level": "標準",
+        "prerequisites": [
+          "ega-13-02",
+          "ega-03-01"
+        ],
+        "relatedTopics": [
+          "ega-19-02"
+        ]
+      },
+      {
+        "id": "ega-19-02",
+        "title": "集合名詞と数量の一致",
+        "chapter": 19,
+        "order": 1902,
+        "level": "標準",
+        "prerequisites": [
+          "ega-19-01"
+        ],
+        "relatedTopics": [
+          "ega-19-01",
+          "ega-19-03"
+        ]
+      },
+      {
+        "id": "ega-19-03",
+        "title": "時制の一致と例外",
+        "chapter": 19,
+        "order": 1903,
+        "level": "標準",
+        "prerequisites": [
+          "ega-19-02"
+        ],
+        "relatedTopics": [
+          "ega-19-02",
+          "ega-19-04"
+        ]
+      },
+      {
+        "id": "ega-19-04",
+        "title": "基本語順と副詞の位置",
+        "chapter": 19,
+        "order": 1904,
+        "level": "発展",
+        "prerequisites": [
+          "ega-19-03"
+        ],
+        "relatedTopics": [
+          "ega-19-03",
+          "ega-19-05"
+        ]
+      },
+      {
+        "id": "ega-19-05",
+        "title": "重い要素の後置と情報構造",
+        "chapter": 19,
+        "order": 1905,
+        "level": "発展",
+        "prerequisites": [
+          "ega-19-04"
+        ],
+        "relatedTopics": [
+          "ega-19-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "倒置・強調",
+    "description": "通常の語順を変える理由を学ぶ。",
+    "topics": [
+      {
+        "id": "ega-20-01",
+        "title": "否定語句による倒置",
+        "chapter": 20,
+        "order": 2001,
+        "level": "標準",
+        "prerequisites": [
+          "ega-18-01",
+          "ega-19-04"
+        ],
+        "relatedTopics": [
+          "ega-20-02"
+        ]
+      },
+      {
+        "id": "ega-20-02",
+        "title": "場所句・so・neitherの倒置",
+        "chapter": 20,
+        "order": 2002,
+        "level": "標準",
+        "prerequisites": [
+          "ega-20-01"
+        ],
+        "relatedTopics": [
+          "ega-20-01",
+          "ega-20-03"
+        ]
+      },
+      {
+        "id": "ega-20-03",
+        "title": "It is … thatの強調構文",
+        "chapter": 20,
+        "order": 2003,
+        "level": "標準",
+        "prerequisites": [
+          "ega-20-02"
+        ],
+        "relatedTopics": [
+          "ega-20-02",
+          "ega-20-04"
+        ]
+      },
+      {
+        "id": "ega-20-04",
+        "title": "doによる強調と焦点化",
+        "chapter": 20,
+        "order": 2004,
+        "level": "発展",
+        "prerequisites": [
+          "ega-20-03"
+        ],
+        "relatedTopics": [
+          "ega-20-03",
+          "ega-20-05"
+        ]
+      },
+      {
+        "id": "ega-20-05",
+        "title": "倒置・前置と文脈",
+        "chapter": 20,
+        "order": 2005,
+        "level": "発展",
+        "prerequisites": [
+          "ega-20-04"
+        ],
+        "relatedTopics": [
+          "ega-20-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "省略・挿入",
+    "description": "表面にない要素を根拠をもって補う。",
+    "topics": [
+      {
+        "id": "ega-21-01",
+        "title": "等位節での省略",
+        "chapter": 21,
+        "order": 2101,
+        "level": "標準",
+        "prerequisites": [
+          "ega-00-03",
+          "ega-10-01"
+        ],
+        "relatedTopics": [
+          "ega-21-02"
+        ]
+      },
+      {
+        "id": "ega-21-02",
+        "title": "副詞節と不定詞の省略",
+        "chapter": 21,
+        "order": 2102,
+        "level": "標準",
+        "prerequisites": [
+          "ega-21-01"
+        ],
+        "relatedTopics": [
+          "ega-21-01",
+          "ega-21-03"
+        ]
+      },
+      {
+        "id": "ega-21-03",
+        "title": "代用表現と省略の区別",
+        "chapter": 21,
+        "order": 2103,
+        "level": "標準",
+        "prerequisites": [
+          "ega-21-02"
+        ],
+        "relatedTopics": [
+          "ega-21-02",
+          "ega-21-04"
+        ]
+      },
+      {
+        "id": "ega-21-04",
+        "title": "挿入句・挿入節",
+        "chapter": 21,
+        "order": 2104,
+        "level": "発展",
+        "prerequisites": [
+          "ega-21-03"
+        ],
+        "relatedTopics": [
+          "ega-21-03",
+          "ega-21-05"
+        ]
+      },
+      {
+        "id": "ega-21-05",
+        "title": "共通関係と解釈の曖昧さ",
+        "chapter": 21,
+        "order": 2105,
+        "level": "発展",
+        "prerequisites": [
+          "ega-21-04"
+        ],
+        "relatedTopics": [
+          "ega-21-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "特殊構文",
+    "description": "定型の背景にある構造を確認する。",
+    "topics": [
+      {
+        "id": "ega-22-01",
+        "title": "there構文と存在表現",
+        "chapter": 22,
+        "order": 2201,
+        "level": "標準",
+        "prerequisites": [
+          "ega-01-01",
+          "ega-14-05"
+        ],
+        "relatedTopics": [
+          "ega-22-02"
+        ]
+      },
+      {
+        "id": "ega-22-02",
+        "title": "無生物主語と表現の転換",
+        "chapter": 22,
+        "order": 2202,
+        "level": "標準",
+        "prerequisites": [
+          "ega-22-01"
+        ],
+        "relatedTopics": [
+          "ega-22-01",
+          "ega-22-03"
+        ]
+      },
+      {
+        "id": "ega-22-03",
+        "title": "同格構文と名詞節",
+        "chapter": 22,
+        "order": 2203,
+        "level": "標準",
+        "prerequisites": [
+          "ega-22-02"
+        ],
+        "relatedTopics": [
+          "ega-22-02",
+          "ega-22-04"
+        ]
+      },
+      {
+        "id": "ega-22-04",
+        "title": "結果構文と程度構文",
+        "chapter": 22,
+        "order": 2204,
+        "level": "発展",
+        "prerequisites": [
+          "ega-22-03"
+        ],
+        "relatedTopics": [
+          "ega-22-03",
+          "ega-22-05"
+        ]
+      },
+      {
+        "id": "ega-22-05",
+        "title": "難構文の複数の分析",
+        "chapter": 22,
+        "order": 2205,
+        "level": "発展",
+        "prerequisites": [
+          "ega-22-04"
+        ],
+        "relatedTopics": [
+          "ega-22-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "英文解釈",
+    "description": "文法知識を長い英文の読解へつなげる。",
+    "topics": [
+      {
+        "id": "ega-23-01",
+        "title": "文の核と修飾の分離",
+        "chapter": 23,
+        "order": 2301,
+        "level": "標準",
+        "prerequisites": [
+          "ega-00-03",
+          "ega-09-01",
+          "ega-10-01"
+        ],
+        "relatedTopics": [
+          "ega-23-02"
+        ]
+      },
+      {
+        "id": "ega-23-02",
+        "title": "節の入れ子と接続の判断",
+        "chapter": 23,
+        "order": 2302,
+        "level": "標準",
+        "prerequisites": [
+          "ega-23-01"
+        ],
+        "relatedTopics": [
+          "ega-23-01",
+          "ega-23-03"
+        ]
+      },
+      {
+        "id": "ega-23-03",
+        "title": "関係詞と先行詞の対応",
+        "chapter": 23,
+        "order": 2303,
+        "level": "標準",
+        "prerequisites": [
+          "ega-23-02"
+        ],
+        "relatedTopics": [
+          "ega-23-02",
+          "ega-23-04"
+        ]
+      },
+      {
+        "id": "ega-23-04",
+        "title": "省略・倒置を含む英文",
+        "chapter": 23,
+        "order": 2304,
+        "level": "最難関",
+        "prerequisites": [
+          "ega-23-03"
+        ],
+        "relatedTopics": [
+          "ega-23-03",
+          "ega-23-05"
+        ]
+      },
+      {
+        "id": "ega-23-05",
+        "title": "抽象的な英文の論理関係",
+        "chapter": 23,
+        "order": 2305,
+        "level": "最難関",
+        "prerequisites": [
+          "ega-23-04"
+        ],
+        "relatedTopics": [
+          "ega-23-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "英作文・語法",
+    "description": "意味に合う構文を自分で選択する。",
+    "topics": [
+      {
+        "id": "ega-24-01",
+        "title": "日本語から主語・述語を選ぶ",
+        "chapter": 24,
+        "order": 2401,
+        "level": "標準",
+        "prerequisites": [
+          "ega-01-01",
+          "ega-03-01",
+          "ega-13-01"
+        ],
+        "relatedTopics": [
+          "ega-24-02"
+        ]
+      },
+      {
+        "id": "ega-24-02",
+        "title": "動詞の結びつきと語法",
+        "chapter": 24,
+        "order": 2402,
+        "level": "標準",
+        "prerequisites": [
+          "ega-24-01"
+        ],
+        "relatedTopics": [
+          "ega-24-01",
+          "ega-24-03"
+        ]
+      },
+      {
+        "id": "ega-24-03",
+        "title": "冠詞・時制・数の推敲",
+        "chapter": 24,
+        "order": 2403,
+        "level": "標準",
+        "prerequisites": [
+          "ega-24-02"
+        ],
+        "relatedTopics": [
+          "ega-24-02",
+          "ega-24-04"
+        ]
+      },
+      {
+        "id": "ega-24-04",
+        "title": "和文英訳と別解の評価",
+        "chapter": 24,
+        "order": 2404,
+        "level": "最難関",
+        "prerequisites": [
+          "ega-24-03"
+        ],
+        "relatedTopics": [
+          "ega-24-03",
+          "ega-24-05"
+        ]
+      },
+      {
+        "id": "ega-24-05",
+        "title": "自由英作文の正確性と自然さ",
+        "chapter": 24,
+        "order": 2405,
+        "level": "最難関",
+        "prerequisites": [
+          "ega-24-04"
+        ],
+        "relatedTopics": [
+          "ega-24-04"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "総合演習",
+    "description": "分野をまたいで根拠を言語化する。",
+    "topics": [
+      {
+        "id": "ega-25-01",
+        "title": "基礎総合チェック",
+        "chapter": 25,
+        "order": 2501,
+        "level": "標準",
+        "prerequisites": [
+          "ega-23-01",
+          "ega-24-01"
+        ],
+        "relatedTopics": [
+          "ega-25-02"
+        ]
+      },
+      {
+        "id": "ega-25-02",
+        "title": "標準文法・語法演習",
+        "chapter": 25,
+        "order": 2502,
+        "level": "標準",
+        "prerequisites": [
+          "ega-25-01"
+        ],
+        "relatedTopics": [
+          "ega-25-01",
+          "ega-25-03"
+        ]
+      },
+      {
+        "id": "ega-25-03",
+        "title": "発展構造識別演習",
+        "chapter": 25,
+        "order": 2503,
+        "level": "標準",
+        "prerequisites": [
+          "ega-25-02"
+        ],
+        "relatedTopics": [
+          "ega-25-02",
+          "ega-25-04"
+        ]
+      },
+      {
+        "id": "ega-25-04",
+        "title": "最難関英文解釈演習",
+        "chapter": 25,
+        "order": 2504,
+        "level": "最難関",
+        "prerequisites": [
+          "ega-25-03"
+        ],
+        "relatedTopics": [
+          "ega-25-03",
+          "ega-25-05"
+        ]
+      },
+      {
+        "id": "ega-25-05",
+        "title": "英作文と復習計画",
+        "chapter": 25,
+        "order": 2505,
+        "level": "最難関",
+        "prerequisites": [
+          "ega-25-04"
+        ],
+        "relatedTopics": [
+          "ega-25-04"
+        ]
+      }
+    ]
+  }
+]
