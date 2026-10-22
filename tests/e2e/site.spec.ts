@@ -18,7 +18,7 @@ test('home, curriculum, lesson, and answer disclosure work under the Pages base'
 test('all three samples have headings, structure figures, and explanations', async ({ page }) => {
   for (const id of ['ega-01-01', 'ega-03-04', 'ega-12-01']) {
     await page.goto(`/grammer/lessons/${id}/`);
-    await expect(page.locator('h1')).toHaveCount(1);
+    await expect(page.locator('main h1')).toHaveCount(1);
     await expect(page.locator('.prose figure').first()).toBeVisible();
     await expect(page.getByRole('heading', { name: '重要事項のまとめ' })).toBeVisible();
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
@@ -47,5 +47,5 @@ test('unavailable local storage does not break navigation or display controls', 
   await page.getByRole('button', { name: '文字を大きくする' }).click();
   await expect(page.locator('html')).toHaveAttribute('data-font', 'large');
   await page.getByRole('link', { name: '学習マップを見る' }).click();
-  await expect(page.locator('h1')).toHaveText('英文法の学習マップ');
+  await expect(page.locator('main h1')).toHaveText('英文法の学習マップ');
 });

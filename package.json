@@ -16,7 +16,7 @@
     "test:e2e": "playwright test",
     "build": "node scripts/clean.mjs && npm run validate:content && astro build && node --import tsx scripts/verify-build.ts",
     "build:review": "node scripts/clean.mjs && npm run validate:content && node scripts/review.mjs build && node --import tsx scripts/verify-review.ts",
-    "preview": "astro preview --host 0.0.0.0",
+    "preview": "astro preview",
     "verify": "npm run check && npm run test && npm run build",
     "dev:public": "astro dev --host 0.0.0.0"
   },

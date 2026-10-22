@@ -6,5 +6,5 @@ export default defineConfig({
   use: { baseURL: external ?? 'http://127.0.0.1:4321', trace: 'retain-on-failure' },
   projects: [ { name: 'desktop', use: { ...devices['Desktop Chrome'] } },
     { name: 'mobile', use: { ...devices['iPhone 13'], defaultBrowserType: 'chromium' } } ],
-  ...(external ? {} : { webServer: { command: 'npm run dev:review -- --host 127.0.0.1 --port 4321 --strictPort', url: 'http://127.0.0.1:4321/grammer/', reuseExistingServer: !process.env.CI, timeout: 120_000, stdout: 'pipe', stderr: 'pipe' } }),
+  ...(external ? {} : { webServer: { command: 'npm run build:review && npm run preview -- --host 127.0.0.1 --port 4321', url: 'http://127.0.0.1:4321/grammer/', reuseExistingServer: !process.env.CI, timeout: 120_000, stdout: 'pipe', stderr: 'pipe' } }),
 });

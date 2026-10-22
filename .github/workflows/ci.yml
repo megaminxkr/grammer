@@ -24,7 +24,6 @@ jobs:
       - run: npm run check
       - run: npm run validate:content
       - run: npm test
-      - run: npm run build:review
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
       # Always rebuild without REVIEW_PREVIEW before upload. Never deploy review dist.
