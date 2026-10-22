@@ -1,0 +1,109 @@
+---
+id: ega-01-01
+title: 文の要素と5文型
+description: 品詞と文の要素を区別し、主語・動詞・目的語・補語から英文の骨格を見つけます。5文型の有効範囲と限界も確認します。
+chapter: 1
+section: 文の骨格
+level: 基礎
+order: 101
+prerequisites: [ega-00-01, ega-00-02]
+relatedTopics: [ega-01-02, ega-02-01, ega-23-01]
+tags: [文型, 主語, 動詞, 目的語, 補語, SVO, sentence patterns]
+status: in-review
+---
+
+import SentenceStructure from '../../components/SentenceStructure.astro';
+import ClauseStructure from '../../components/ClauseStructure.astro';
+
+import SelfCheck from '../../components/SelfCheck.astro';
+
+## 学習目標
+
+- 品詞と、文中での働きである「文の要素」を区別する。
+- S・V・O・Cと修飾語Mを使って、基本的な英文の骨格を説明する。
+- 目的語と補語の違いを、意味と構造の両方から判断する。
+
+## 前提知識
+
+名詞は人・物事などを表し、動詞は動作や状態を表します。ただし、**品詞は語の種類、文の要素は文中での役割**です。たとえば名詞の *Mika* は、文によって主語にも目的語にもなります。
+
+「句」はここでは主語と定形動詞の組み合わせを中心とする節の構造を持たないまとまり、「節」はその組み合わせを基本とするまとまりとして学びます。命令節や非定形節などは、後の単元でこの説明を広げます。
+
+## 定義：S・V・O・C・Mとは
+
+| 記号 | 名称 | この単元での捉え方 |
+| --- | --- | --- |
+| S | 主語 | 述語によって何かが述べられる対象。典型的には名詞句。 |
+| V | 動詞 | 主語についての動作・状態などを述べる核。助動詞を含む動詞のまとまりとして示すこともある。 |
+| O | 目的語 | 他動詞が取る、典型的には名詞句で表す要素。 |
+| C | 補語 | 主語または目的語の性質・状態・身分などを述べる要素。 |
+| M | 修飾語 | 時・場所・方法などの情報を加える要素を示す学習上の記号。 |
+
+Mは、S・V・O・Cと並ぶ第6の文型要素という意味ではありません。また、「何を？」に答えるから必ずOになる、という判定はできません。動詞の用法と、その後ろの要素の関係を確かめます。
+
+## 基本原理：動詞から骨格を探す
+
+まず定形の動詞を見つけ、その主語と、動詞がどんな要素を必要とするかを調べます。同じ動詞でも意味・用法によって文型が変わるため、単語ごとに一つの文型を固定しません。
+
+> 英文を日本語に訳したときに「〜を」が出てくるかどうかより、英語の動詞がどの構造を取っているかを優先します。
+
+## 基本構造：5つの型
+
+| 文型 | 例文 | 和訳・関係 |
+| --- | --- | --- |
+| SV | A small bell rang. | 小さな鐘が鳴った。 |
+| SVC | The soup smells good. | そのスープはよいにおいがする。goodはスープの性質。 |
+| SVO | Rina opened the window. | リナは窓を開けた。the windowはopenedの目的語。 |
+| SVOO | My uncle sent me a postcard. | おじは私にはがきを送った。meとa postcardは異なる対象。 |
+| SVOC | We painted the gate blue. | 私たちは門を青く塗った。blueは門の仕上がりの状態。 |
+
+<SentenceStructure caption="SVOC：目的語の状態を補語が説明する" parts={[{text:'We',role:'S'},{text:'painted',role:'V'},{text:'the gate',role:'O'},{text:'blue.',role:'C',note:'the gateの状態'}]} translation="私たちは門を青く塗った。" note="OとCの間に「門が青い」という叙述関係が成り立ちます。厳密な同一物という意味ではありません。" />
+
+## 詳細解説：目的語と補語の見分け方
+
+### SVCとSVO
+
+*The student became a guide.* では「その生徒がガイドになった」という関係なので、*a guide* は主語の補語です。一方、*The student met a guide.* では、生徒とガイドは別の対象として導入され、*a guide* は *met* の目的語です。
+
+S=Cという書き方は便利ですが、*The soup smells good.* の *good* はスープそのものではありません。「SについてCという性質を述べる」と理解してください。
+
+### SVOOとSVOC
+
+*She gave the visitor a map.* は、訪問者と地図という2つの目的語を取ります。*She found the map useful.* では、*useful* が地図の性質を述べています。
+
+「後ろに2語あるからSVOO」とは判断できません。目的語や補語は、それぞれ複数の語からなるまとまりにもなります。
+
+### 修飾語と必要な要素
+
+*The birds sang in the garden.* の *in the garden* は場所を加える修飾語として扱えます。しかし、*She put the cup on the shelf.* の場所表現は、この意味の *put* が通常必要とする要素です。**前置詞句ならいつでも省略できるMとは限りません。**
+
+## 類似表現の比較
+
+- *The room grew quiet.*：部屋が静かになった。*quiet* は部屋の状態を述べる補語。
+- *The children grew flowers.*：子どもたちは花を育てた。*flowers* は育てる対象を表す目的語。
+- *The children grew quickly.*：子どもたちは急速に成長した。*quickly* は成長の仕方を表す修飾語。
+
+*grow* というつづりだけでなく、意味と後続要素の役割を確認します。
+
+## よくある誤り
+
+1. **形容詞はいつも名詞を前から修飾する。** → 形容詞は補語にもなります。*The road is narrow.* の *narrow* は主語を説明します。
+2. **SVOOはいつでもtoを使う文に変えられる。** → 動詞ごとに制約があります。*buy* なら通常 *for* を用い、すべての二重目的語構文が単純に言い換えられるわけでもありません。
+3. **Mを消せばどんな英文でも必ず5文型になる。** → 5文型は基本構造を学ぶための枠組みです。必須の場所表現などを無理に消してはいけません。
+
+## 発展：節と修飾関係を見る
+
+<ClauseStructure caption="主節と関係節を分ける" clauses={[{label:'主節の骨格',text:'The book [that I borrowed] is useful.',explanation:'主語の中心はbook、主節の動詞はis、主語の補語はuseful。'},{label:'従属節：関係節',text:'that I borrowed',explanation:'Iが主語、borrowedが動詞。高校文法ではthatをborrowedの目的語となる関係代名詞と分析する。'}]} relations={['関係節that I borrowedは、先行詞bookを修飾します。','関係節内部でborrowedの目的語に対応する役割が、先行詞bookと結び付きます。']} />
+
+この例全体は「主節の骨格がSVC」と説明できます。節の内部にも別の主語・動詞があるので、文全体でVが一つとは限りません。なお、関係詞の分析は文法理論によって異なります。ここでは高校学習で広く用いる説明を採用しています。
+
+## 確認問題
+
+<SelfCheck topicId="ega-01-01" />
+
+## 重要事項のまとめ
+
+- 品詞と文の要素を区別する。名詞句がS・O・Cになることもある。
+- 動詞の意味と用法から、必要な要素を判断する。
+- 補語はSまたはOについて何かを述べる。「同一物」という意味に限定しない。
+- 5文型は有用な学習用の地図だが、英語のあらゆる構造を無理なく分類する唯一の理論ではない。

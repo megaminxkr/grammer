@@ -1,0 +1,30 @@
+---
+import { render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import { getLessons } from '../../lib/lessons';
+import { chapters } from '../../lib/curriculum';
+import { visibleReferences } from '../../lib/publication';
+import { href } from '../../lib/paths';
+export async function getStaticPaths() { return (await getLessons()).map(lesson => ({ params: { id: lesson.data.id }, props: { lesson } })); }
+const { lesson } = Astro.props;
+const d = lesson.data;
+const { Content, headings } = await render(lesson);
+const lessons = await getLessons();
+const ids = new Set(lessons.map(l => l.data.id));
+const index = lessons.findIndex(l => l.data.id === d.id);
+const previous = lessons[index-1]; const next = lessons[index+1];
+const prerequisites = visibleReferences(d.prerequisites, ids);
+const related = visibleReferences(d.relatedTopics, ids);
+const titleFor = (id: string) => lessons.find(l => l.data.id === id)?.data.title ?? '';
+---
+<Layout title={d.title} description={d.description}>
+  <p class="breadcrumb"><a href={href()}>ホーム</a> / <a href={href(`chapters/${d.chapter}/`)}>{chapters[d.chapter]?.title}</a> / 単元</p>
+  <div class="lesson-layout"><article class="lesson" data-pagefind-body>
+    <header class="lesson-heading"><div class="lesson-meta"><span class="eyebrow">CHAPTER {String(d.chapter).padStart(2,'0')}</span><span class="badge">{d.level}</span><span class="status-tag">{d.status === 'reviewed' ? '人間による校閲済み' : '人間による校閲待ち'}</span></div><h1>{d.title}</h1><p>{d.description}</p></header>
+    {d.status !== 'reviewed' && <aside class="content-notice">この教材は独自作成の校閲用サンプルです。内容は人間による確認前であり、公開教材ではありません。</aside>}
+    {prerequisites.length > 0 && <nav class="prerequisites" aria-label="前提知識"><strong>先に学ぶとよい単元</strong><ul>{prerequisites.map(id => <li><a href={href(`lessons/${id}/`)}>{titleFor(id)}</a></li>)}</ul></nav>}
+    <div class="prose"><Content /></div>
+    {related.length > 0 && <nav class="related" aria-label="関連単元"><h2>関連単元</h2><ul>{related.map(id => <li><a href={href(`lessons/${id}/`)}>{titleFor(id)} →</a></li>)}</ul></nav>}
+    <nav class="lesson-pagination" aria-label="閲覧可能な教材の前後移動">{previous ? <a rel="prev" href={href(`lessons/${previous.data.id}/`)}><small>← 前の教材</small>{previous.data.title}</a> : <span></span>}{next && <a rel="next" href={href(`lessons/${next.data.id}/`)}><small>次の教材 →</small>{next.data.title}</a>}</nav>
+  </article><aside class="toc"><nav aria-label="ページ内目次"><p class="nav-label">ON THIS PAGE</p><ol>{headings.filter(h => h.depth === 2).map(h => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol></nav></aside></div>
+</Layout>

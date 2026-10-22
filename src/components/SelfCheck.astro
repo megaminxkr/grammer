@@ -1,0 +1,13 @@
+---
+import { questionsFor } from '../lib/questions';
+interface Props { topicId: string }
+const { topicId } = Astro.props;
+const items = questionsFor(topicId);
+---
+<p class="muted small">自分で解いてから解説を開きましょう。この版は自己確認用で、自動採点・解答記録は行いません。</p>
+{items.map((item, index) => <section class="self-check" aria-labelledby={`${item.id}-heading`}>
+  <h3 id={`${item.id}-heading`}>問{index + 1}</h3>
+  <p>{item.prompt}</p><p lang={item.sentence.startsWith('「') ? 'ja' : 'en'} class="question-sentence">{item.sentence}</p>
+  {item.type === 'single-choice' && <ul class="question-options">{item.options.map(option => <li lang="en">{option}</li>)}</ul>}
+  <details><summary>解答・解説を開く</summary><p><strong>{item.answer}</strong></p><p>{item.explanation}</p></details>
+</section>)}

@@ -1,0 +1,11 @@
+---
+interface Clause { label: string; text: string; explanation: string }
+interface Props { caption: string; clauses: Clause[]; relations?: string[]; omitted?: string }
+const { caption, clauses, relations = [], omitted } = Astro.props;
+---
+<figure class="sentence-figure">
+  <figcaption>{caption}</figcaption>
+  <ol>{clauses.map(clause => <li><strong>{clause.label}</strong><p lang="en">{clause.text}</p><p class="structure-note">{clause.explanation}</p></li>)}</ol>
+  {relations.length > 0 && <ul aria-label="修飾・参照関係">{relations.map(relation => <li>{relation}</li>)}</ul>}
+  {omitted && <p class="structure-note">省略の説明：{omitted}</p>}
+</figure>

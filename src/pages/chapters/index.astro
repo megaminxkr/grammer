@@ -1,0 +1,11 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { chapters, topics } from '../../lib/curriculum';
+import { getLessons } from '../../lib/lessons';
+import { href } from '../../lib/paths';
+const lessons = await getLessons();
+---
+<Layout title="カリキュラム" description="英文法の26分野を体系的に整理した学習マップ。文の土台から英文解釈・英作文まで、段階的に進めます。" wide>
+  <div class="page-heading"><p class="breadcrumb"><a href={href()}>ホーム</a> / カリキュラム</p><p class="eyebrow">THE COMPLETE MAP</p><h1>英文法の学習マップ</h1><p>26分野・{topics.length}小単元の設計をもとに、教材を順次公開します。<br />各章には、現在閲覧できる教材だけを表示します。</p></div>
+  <div class="chapter-grid">{chapters.map(chapter => { const count = lessons.filter(l => l.data.chapter === chapter.id).length; return <a class="chapter-card" href={href(`chapters/${chapter.id}/`)}><span class="chapter-card-number">{String(chapter.id).padStart(2,'0')}</span><h2>{chapter.title}</h2><p>{chapter.description}</p><span class="card-bottom"><span>閲覧可能 {count} 単元</span><span aria-hidden="true">↗</span></span></a>; })}</div>
+</Layout>

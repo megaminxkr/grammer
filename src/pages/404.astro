@@ -1,0 +1,7 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { href } from '../lib/paths';
+---
+<Layout title="ページが見つかりません" description="指定されたページは存在しないか、公開前です。">
+  <div class="reading"><p class="eyebrow">404 / NOT FOUND</p><h1>ページが見つかりません</h1><p>URLをご確認ください。公開前の教材にはアクセスできません。</p><a class="button" href={href()}>ホームへ戻る</a></div>
+</Layout>

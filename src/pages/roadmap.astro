@@ -1,0 +1,6 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { href } from '../lib/paths';
+const steps = [{ n:'01',title:'土台をつくる',chapters:'0〜5章',body:'品詞・文の要素・句と節を確認し、動詞を中心に文の骨格をつかみます。時制と助動詞は意味と形をセットにして整理します。'},{n:'02',title:'節と修飾を読み解く',chapters:'6〜12章',body:'準動詞・関係詞・接続詞を学び、どのまとまりが何を説明するかを確かめます。比較や仮定法は成立条件と意味の違いに注目します。'},{n:'03',title:'精度を高める',chapters:'13〜22章',body:'名詞句、否定の範囲、一致、倒置、省略を確認します。文法的な誤りと、文脈によって不自然になる表現を区別します。'},{n:'04',title:'読解と英作文に活用する',chapters:'23〜25章',body:'長い英文を構造に分け、自分の言葉で根拠を説明します。英作文は複数の表現を比べ、意図に合うものを選びます。'}];
+---
+<Layout title="学習ガイド" description="英文法を定義・原理・構造・例文・確認問題の順に学ぶためのガイド。自分の理解に合わせてカリキュラムを進めます。"><div class="reading prose"><p class="eyebrow">HOW TO USE YOUR ATLAS</p><h1>理解を積み重ねる学び方</h1><p class="lead">例文を訳せるだけでなく、「なぜその形なのか」を説明できることを目標にします。</p><h2>一つの単元の進め方</h2><ol><li>学習目標を読み、前提知識を確認する。</li><li>定義と原理を読み、例文の主語・動詞・修飾関係を確かめる。</li><li>比較と誤りの例で、規則が働く条件を見分ける。</li><li>確認問題を自力で解き、その後で解説を開く。</li><li>翌日、自分の言葉で重要事項を説明してみる。</li></ol><h2>学習の道すじ</h2><div class="roadmap-steps">{steps.map(step => <section><span class="eyebrow">{step.n} / {step.chapters}</span><h3>{step.title}</h3><p>{step.body}</p></section>)}</div><aside class="content-notice">この初期版では、学習履歴・自動採点・全文検索は未実装です。問題の解答と解説は、教材内で手動で開いて確認できます。</aside><a class="button" href={href('chapters/')}>学習マップを見る →</a></div></Layout>

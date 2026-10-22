@@ -1,0 +1,29 @@
+---
+import { href } from '../lib/paths';
+---
+<header class="header">
+  <a class="brand" href={href()} aria-label="English Grammar Atlas ホーム"><span class="brand-icon" aria-hidden="true">A<span>↗</span></span><span>English Grammar <strong>Atlas</strong><small>高校英文法の学習地図</small></span></a>
+  <nav class="top-nav" aria-label="メイン"><a href={href('chapters/')}>カリキュラム</a><a href={href('roadmap/')}>学習ガイド</a></nav>
+  <div class="preferences"><button id="font-toggle" aria-pressed="false" aria-label="文字を大きくする">A<span aria-hidden="true">a</span></button><button id="theme-toggle" aria-pressed="false" aria-label="ダークモード">◐</button></div>
+</header>
+<script>
+  const themeButton = document.querySelector<HTMLButtonElement>('#theme-toggle');
+  const fontButton = document.querySelector<HTMLButtonElement>('#font-toggle');
+  function syncPreferences() {
+    themeButton?.setAttribute('aria-pressed', String(document.documentElement.dataset.theme === 'dark'));
+    fontButton?.setAttribute('aria-pressed', String(document.documentElement.dataset.font === 'large'));
+  }
+  syncPreferences();
+  themeButton?.addEventListener('click', () => {
+    const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem('ega:theme', next); } catch { /* No storage required. */ }
+    syncPreferences();
+  });
+  fontButton?.addEventListener('click', () => {
+    const next = document.documentElement.dataset.font === 'large' ? 'normal' : 'large';
+    document.documentElement.dataset.font = next;
+    try { localStorage.setItem('ega:font', next); } catch { /* No storage required. */ }
+    syncPreferences();
+  });
+</script>

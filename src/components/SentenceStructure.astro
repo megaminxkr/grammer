@@ -1,0 +1,11 @@
+---
+interface Part { text: string; role: 'S' | 'V' | 'O' | 'C' | 'M'; note?: string }
+interface Props { parts: Part[]; translation: string; caption: string; note?: string }
+const { parts, translation, caption, note } = Astro.props;
+const names = { S: '主語', V: '動詞', O: '目的語', C: '補語', M: '修飾語' };
+---
+<figure class="sentence-figure">
+  <figcaption>{caption}</figcaption>
+  <div class="sentence-parts" lang="en">{parts.map(part => <span class:list={['sentence-part', `role-${part.role.toLowerCase()}`]}><span class="role-label" lang="ja">{part.role} <span>{names[part.role]}</span></span><span class="part-text">{part.text}</span>{part.note && <span class="part-note" lang="ja">{part.note}</span>}</span>)}</div>
+  <p class="translation">{translation}</p>{note && <p class="structure-note">{note}</p>}
+</figure>

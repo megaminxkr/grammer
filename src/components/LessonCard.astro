@@ -1,0 +1,13 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { chapters } from '../lib/curriculum';
+import { href } from '../lib/paths';
+interface Props { lesson: CollectionEntry<'lessons'>; index?: number }
+const { lesson, index = 0 } = Astro.props;
+const d = lesson.data;
+---
+<a class="lesson-card" href={href(`lessons/${d.id}/`)}>
+  <div class="card-top"><span class="small-caps">UNIT {String(index + 1).padStart(2, '0')}</span><span class="badge">{d.level}</span></div>
+  <span class="card-chapter">{chapters[d.chapter]?.title}</span><h3>{d.title}</h3><p>{d.description}</p>
+  <div class="card-bottom"><span>{d.status === 'reviewed' ? '校閲済み' : '校閲待ち'}</span><span>単元を読む <span aria-hidden="true">↗</span></span></div>
+</a>
